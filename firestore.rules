@@ -1,0 +1,146 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isSelf(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    function isAdmin() {
+      return signedIn()
+        && exists(
+          /databases/$(database)/documents/users/$(request.auth.uid)
+        )
+        && get(
+          /databases/$(database)/documents/users/$(request.auth.uid)
+        ).data.role == 'ADMIN';
+    }
+
+    function ownsCoachId() {
+      return signedIn()
+        && request.resource.data.coachId == request.auth.uid;
+    }
+
+    function ownedByCoach() {
+      return signedIn()
+        && resource.data.coachId == request.auth.uid;
+    }
+
+    function coachIdUnchanged() {
+      return request.resource.data.coachId == resource.data.coachId;
+    }
+
+    match /users/{uid} {
+
+      allow read: if isSelf(uid) || isAdmin();
+
+      // New account can register as USER or ADMIN
+      allow create: if isSelf(uid)
+        && request.resource.data.email is string
+        && request.resource.data.role in ['USER', 'ADMIN']
+        && request.resource.data.isEmailVerified
+           == request.auth.token.email_verified;
+
+      // Existing users cannot change their own role
+      allow update: if isAdmin()
+        || (
+          isSelf(uid)
+          && request.resource.data.email == resource.data.email
+          && request.resource.data.role == resource.data.role
+          && request.resource.data.isEmailVerified
+             == request.auth.token.email_verified
+        );
+
+      allow delete: if isAdmin();
+    }
+
+    match /coachProfiles/{uid} {
+      allow read: if isSelf(uid) || isAdmin();
+
+      allow create: if isSelf(uid)
+        || isAdmin();
+
+      allow update: if isSelf(uid)
+        || isAdmin();
+
+      allow delete: if isSelf(uid)
+        || isAdmin();
+    }
+
+    match /userSettings/{uid} {
+      allow read, create, update, delete:
+        if isSelf(uid) || isAdmin();
+    }
+
+    match /sports/{sportId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /players/{playerId} {
+      allow read: if ownedByCoach() || isAdmin();
+
+      allow create: if ownsCoachId();
+
+      allow update: if isAdmin()
+        || (ownedByCoach() && coachIdUnchanged());
+
+      allow delete: if ownedByCoach() || isAdmin();
+    }
+
+    match /evaluations/{evaluationId} {
+      allow read: if ownedByCoach() || isAdmin();
+
+      allow create: if ownsCoachId();
+
+      allow update: if isAdmin()
+        || (ownedByCoach() && coachIdUnchanged());
+
+      allow delete: if ownedByCoach() || isAdmin();
+    }
+
+    match /customSkills/{skillId} {
+      allow read: if ownedByCoach() || isAdmin();
+
+      allow create: if ownsCoachId();
+
+      allow update: if isAdmin()
+        || (ownedByCoach() && coachIdUnchanged());
+
+      allow delete: if ownedByCoach() || isAdmin();
+    }
+
+    match /hiddenSkills/{docId} {
+      allow read, write: if signedIn()
+        && docId.matches('^' + request.auth.uid + '_.*');
+    }
+
+    match /auditLogs/{logId} {
+      allow read: if isAdmin();
+
+      allow create: if signedIn()
+        && request.resource.data.actorUid == request.auth.uid
+        && request.resource.data.action is string
+        && request.resource.data.keys().hasAll([
+          'action',
+          'actorUid',
+          'createdAt'
+        ])
+        && request.resource.data.keys().hasOnly([
+          'action',
+          'actorUid',
+          'actorEmail',
+          'targetUserId',
+          'meta',
+          'createdAt'
+        ]);
+
+      allow update, delete: if false;
+    }
+  }
+}

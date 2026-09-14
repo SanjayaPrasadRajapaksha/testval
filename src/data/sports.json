@@ -1,0 +1,1224 @@
+[
+  {
+    "id": "soccer",
+    "name": "Soccer",
+    "brand": "PITCHSCOUT",
+    "tagline": "Youth Soccer Evaluations",
+    "heroTop": "SCOUT THE",
+    "heroAccent": "NEXT GENERATION.",
+    "icon": "⚽",
+    "positions": [
+      "Forward",
+      "Midfielder",
+      "Defender",
+      "Goalkeeper"
+    ],
+    "skills": [
+      {
+        "id": "technical",
+        "label": "Technical",
+        "symbol": "figure.soccer",
+        "hint": "Touch, dribbling, ball control"
+      },
+      {
+        "id": "passing",
+        "label": "Passing",
+        "symbol": "target",
+        "hint": "Accuracy, timing, vision"
+      },
+      {
+        "id": "shooting",
+        "label": "Shooting",
+        "symbol": "star.fill",
+        "hint": "Power, placement, confidence"
+      },
+      {
+        "id": "defending",
+        "label": "Defending",
+        "symbol": "shield.fill",
+        "hint": "Pressure, tackling, recovery"
+      },
+      {
+        "id": "speed",
+        "label": "Speed",
+        "symbol": "bolt.fill",
+        "hint": "Pace, quickness, first step"
+      },
+      {
+        "id": "fitness",
+        "label": "Fitness",
+        "symbol": "waveform.path.ecg",
+        "hint": "Work rate, stamina, intensity"
+      },
+      {
+        "id": "soccerIq",
+        "label": "Soccer IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Decision-making, spacing, awareness"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Listening, attitude, effort"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "figure.run",
+        "hint": "Consistency, intensity, competitiveness"
+      }
+    ]
+  },
+  {
+    "id": "basketball",
+    "name": "Basketball",
+    "brand": "COURTSCOUT",
+    "tagline": "Youth Basketball Evaluations",
+    "heroTop": "EVALUATE THE",
+    "heroAccent": "COMPLETE PLAYER.",
+    "icon": "🏀",
+    "positions": [
+      "Point Guard",
+      "Shooting Guard",
+      "Small Forward",
+      "Power Forward",
+      "Center"
+    ],
+    "skills": [
+      {
+        "id": "ballHandling",
+        "label": "Ball Handling",
+        "symbol": "circle.grid.cross",
+        "hint": "Control, pressure handling, change of pace"
+      },
+      {
+        "id": "shooting",
+        "label": "Shooting",
+        "symbol": "target",
+        "hint": "Form, range, consistency"
+      },
+      {
+        "id": "passing",
+        "label": "Passing",
+        "symbol": "arrow.left.and.right",
+        "hint": "Accuracy, timing, court vision"
+      },
+      {
+        "id": "defense",
+        "label": "Defense",
+        "symbol": "shield.fill",
+        "hint": "On-ball pressure, help defense, footwork"
+      },
+      {
+        "id": "rebounding",
+        "label": "Rebounding",
+        "symbol": "arrow.up.and.down",
+        "hint": "Positioning, timing, toughness"
+      },
+      {
+        "id": "athleticism",
+        "label": "Athleticism",
+        "symbol": "bolt.fill",
+        "hint": "Quickness, explosiveness, body control"
+      },
+      {
+        "id": "basketballIq",
+        "label": "Basketball IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Decision-making, spacing, game awareness"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Listening, attitude, team habits"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "figure.run",
+        "hint": "Effort, competitiveness, training consistency"
+      }
+    ]
+  },
+  {
+    "id": "baseball",
+    "name": "Baseball",
+    "brand": "DIAMONDSCOUT",
+    "tagline": "Youth Baseball Evaluations",
+    "heroTop": "BUILD A",
+    "heroAccent": "SOLID DIAMOND.",
+    "icon": "⚾",
+    "positions": [
+      "Pitcher",
+      "Catcher",
+      "First Base",
+      "Infield",
+      "Outfield"
+    ],
+    "skills": [
+      {
+        "id": "hitting",
+        "label": "Hitting",
+        "symbol": "target",
+        "hint": "Contact, approach, swing mechanics"
+      },
+      {
+        "id": "power",
+        "label": "Power",
+        "symbol": "bolt.fill",
+        "hint": "Exit strength, gap power, carry"
+      },
+      {
+        "id": "fielding",
+        "label": "Fielding",
+        "symbol": "shield.fill",
+        "hint": "Glove work, reads, reliability"
+      },
+      {
+        "id": "throwing",
+        "label": "Throwing",
+        "symbol": "paperplane.fill",
+        "hint": "Arm strength, accuracy, release"
+      },
+      {
+        "id": "running",
+        "label": "Running",
+        "symbol": "figure.run",
+        "hint": "Speed, base running, instincts"
+      },
+      {
+        "id": "pitching",
+        "label": "Pitching",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Command, mechanics, pitchability"
+      },
+      {
+        "id": "baseballIq",
+        "label": "Baseball IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Situational awareness, decisions, anticipation"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Listening, adjustments, attitude"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Preparation, effort, focus"
+      }
+    ]
+  },
+  {
+    "id": "football",
+    "name": "Football",
+    "brand": "GRIDSCOUT",
+    "tagline": "Youth Football Evaluations",
+    "heroTop": "BUILD THE",
+    "heroAccent": "DEPTH CHART.",
+    "icon": "🏈",
+    "positions": [
+      "Quarterback",
+      "Running Back",
+      "Receiver",
+      "Line",
+      "Linebacker",
+      "Defensive Back"
+    ],
+    "skills": [
+      {
+        "id": "speed",
+        "label": "Speed",
+        "symbol": "bolt.fill",
+        "hint": "Top-end speed, burst, pursuit"
+      },
+      {
+        "id": "strength",
+        "label": "Strength",
+        "symbol": "dumbbell.fill",
+        "hint": "Functional strength, contact balance"
+      },
+      {
+        "id": "agility",
+        "label": "Agility",
+        "symbol": "figure.run",
+        "hint": "Change of direction, footwork, body control"
+      },
+      {
+        "id": "tackling",
+        "label": "Tackling / Contact",
+        "symbol": "shield.fill",
+        "hint": "Form, physicality, safety, finish"
+      },
+      {
+        "id": "catching",
+        "label": "Catching / Ball Skills",
+        "symbol": "hands.sparkles.fill",
+        "hint": "Hands, tracking, ball security"
+      },
+      {
+        "id": "blocking",
+        "label": "Blocking",
+        "symbol": "figure.strengthtraining.traditional",
+        "hint": "Leverage, hands, assignment execution"
+      },
+      {
+        "id": "footballIq",
+        "label": "Football IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Assignments, reads, situational awareness"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Listening, discipline, adjustment"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Motor, intensity, consistency"
+      }
+    ]
+  },
+  {
+    "id": "lacrosse",
+    "name": "Lacrosse",
+    "brand": "LAXSCOUT",
+    "tagline": "Youth Lacrosse Evaluations",
+    "heroTop": "BUILD ELITE",
+    "heroAccent": "PLAYERS.",
+    "icon": "🥍",
+    "positions": [
+      "Attack",
+      "Midfield",
+      "Defense",
+      "Goalie",
+      "Faceoff"
+    ],
+    "skills": [
+      {
+        "id": "stickSkills",
+        "label": "Stick Skills",
+        "symbol": "target",
+        "hint": "Passing, catching, control"
+      },
+      {
+        "id": "shooting",
+        "label": "Shooting",
+        "symbol": "bolt.fill",
+        "hint": "Accuracy, power, shot selection"
+      },
+      {
+        "id": "defense",
+        "label": "Defense",
+        "symbol": "shield.fill",
+        "hint": "Positioning, footwork, pressure"
+      },
+      {
+        "id": "speed",
+        "label": "Speed",
+        "symbol": "figure.run",
+        "hint": "Acceleration, transition speed"
+      },
+      {
+        "id": "agility",
+        "label": "Agility",
+        "symbol": "arrow.triangle.2.circlepath",
+        "hint": "Change of direction, balance"
+      },
+      {
+        "id": "possession",
+        "label": "Possession",
+        "symbol": "circle.grid.cross",
+        "hint": "Reaction, hustle, control"
+      },
+      {
+        "id": "lacrosseIq",
+        "label": "Lacrosse IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Spacing, awareness, decisions"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Listening, adjustments, attitude"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Intensity, competitiveness, consistency"
+      }
+    ]
+  },
+  {
+    "id": "cheerleading",
+    "name": "Cheerleading",
+    "brand": "SPIRITSCOUT",
+    "tagline": "Youth Cheer Evaluations",
+    "heroTop": "EVALUATE EVERY",
+    "heroAccent": "ROUTINE.",
+    "icon": "📣",
+    "positions": [
+      "Flyer",
+      "Base",
+      "Back Spot",
+      "Tumbler"
+    ],
+    "skills": [
+      {
+        "id": "tumbling",
+        "label": "Tumbling",
+        "symbol": "figure.gymnastics",
+        "hint": "Technique, control, execution"
+      },
+      {
+        "id": "jumping",
+        "label": "Jumping",
+        "symbol": "arrow.up",
+        "hint": "Height, form, timing"
+      },
+      {
+        "id": "stunting",
+        "label": "Stunting",
+        "symbol": "shield.fill",
+        "hint": "Stability, confidence, synchronization"
+      },
+      {
+        "id": "motions",
+        "label": "Motions",
+        "symbol": "target",
+        "hint": "Sharpness, precision, consistency"
+      },
+      {
+        "id": "dance",
+        "label": "Dance",
+        "symbol": "figure.dance",
+        "hint": "Rhythm, movement, performance"
+      },
+      {
+        "id": "performance",
+        "label": "Performance",
+        "symbol": "star.fill",
+        "hint": "Energy, confidence, crowd presence"
+      },
+      {
+        "id": "cheerIq",
+        "label": "Routine IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Timing, transitions, awareness"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Attitude, listening, adaptability"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Focus, energy, consistency"
+      }
+    ]
+  },
+  {
+    "id": "softball",
+    "name": "Softball",
+    "brand": "SOFTSCOUT",
+    "tagline": "Youth Softball Evaluations",
+    "heroTop": "EVALUATE EVERY",
+    "heroAccent": "PLAY.",
+    "icon": "🥎",
+    "positions": [
+      "Pitcher",
+      "Catcher",
+      "First Base",
+      "Infield",
+      "Outfield"
+    ],
+    "skills": [
+      {
+        "id": "hitting",
+        "label": "Hitting",
+        "symbol": "target",
+        "hint": "Contact, approach, swing mechanics"
+      },
+      {
+        "id": "power",
+        "label": "Power",
+        "symbol": "bolt.fill",
+        "hint": "Exit strength, gap power, carry"
+      },
+      {
+        "id": "fielding",
+        "label": "Fielding",
+        "symbol": "shield.fill",
+        "hint": "Glove work, reads, reliability"
+      },
+      {
+        "id": "throwing",
+        "label": "Throwing",
+        "symbol": "paperplane.fill",
+        "hint": "Arm strength, accuracy, release"
+      },
+      {
+        "id": "running",
+        "label": "Running",
+        "symbol": "figure.run",
+        "hint": "Speed, base running, instincts"
+      },
+      {
+        "id": "pitching",
+        "label": "Pitching",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Command, mechanics, pitchability"
+      },
+      {
+        "id": "softballIq",
+        "label": "Softball IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Situational awareness, decisions, anticipation"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Listening, adjustments, attitude"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Preparation, effort, focus"
+      }
+    ]
+  },
+  {
+    "id": "fieldhockey",
+    "name": "Field Hockey",
+    "brand": "FIELDSCOUT",
+    "tagline": "Youth Field Hockey Evaluations",
+    "heroTop": "EVALUATE EVERY",
+    "heroAccent": "POSSESSION.",
+    "icon": "🏑",
+    "positions": [
+      "Forward",
+      "Midfielder",
+      "Defender",
+      "Goalkeeper"
+    ],
+    "skills": [
+      {
+        "id": "stickSkills",
+        "label": "Stick Skills",
+        "symbol": "target",
+        "hint": "Passing, catching, control"
+      },
+      {
+        "id": "shooting",
+        "label": "Shooting",
+        "symbol": "bolt.fill",
+        "hint": "Accuracy, power, shot selection"
+      },
+      {
+        "id": "defense",
+        "label": "Defense",
+        "symbol": "shield.fill",
+        "hint": "Positioning, footwork, pressure"
+      },
+      {
+        "id": "speed",
+        "label": "Speed",
+        "symbol": "figure.run",
+        "hint": "Acceleration, transition speed"
+      },
+      {
+        "id": "agility",
+        "label": "Agility",
+        "symbol": "arrow.triangle.2.circlepath",
+        "hint": "Change of direction, balance"
+      },
+      {
+        "id": "possession",
+        "label": "Possession",
+        "symbol": "circle.grid.cross",
+        "hint": "Reaction, hustle, control"
+      },
+      {
+        "id": "fieldIq",
+        "label": "Field Hockey IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Spacing, awareness, decisions"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Listening, adjustments, attitude"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Intensity, competitiveness, consistency"
+      }
+    ]
+  },
+  {
+    "id": "volleyball",
+    "name": "Volleyball",
+    "brand": "NETSCOUT",
+    "tagline": "Youth Volleyball Evaluations",
+    "heroTop": "RATE EVERY",
+    "heroAccent": "TOUCH.",
+    "icon": "🏐",
+    "positions": [
+      "Setter",
+      "Outside Hitter",
+      "Middle Blocker",
+      "Opposite",
+      "Libero",
+      "Defensive Specialist"
+    ],
+    "skills": [
+      {
+        "id": "serving",
+        "label": "Serving",
+        "symbol": "target",
+        "hint": "Accuracy, pace, consistency"
+      },
+      {
+        "id": "passing",
+        "label": "Passing",
+        "symbol": "shield.fill",
+        "hint": "Platform, control, serve receive"
+      },
+      {
+        "id": "setting",
+        "label": "Setting",
+        "symbol": "hands.sparkles.fill",
+        "hint": "Hands, location, tempo"
+      },
+      {
+        "id": "attacking",
+        "label": "Attacking",
+        "symbol": "bolt.fill",
+        "hint": "Approach, contact, shot selection"
+      },
+      {
+        "id": "blocking",
+        "label": "Blocking",
+        "symbol": "arrow.up",
+        "hint": "Timing, hand position, read"
+      },
+      {
+        "id": "defense",
+        "label": "Defense",
+        "symbol": "figure.run",
+        "hint": "Digging, movement, reaction"
+      },
+      {
+        "id": "volleyballIq",
+        "label": "Volleyball IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Rotations, court awareness, decisions"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Listening, attitude, team habits"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Energy, consistency, competitiveness"
+      }
+    ]
+  },
+  {
+    "id": "wrestling",
+    "name": "Wrestling",
+    "brand": "MATSCOUT",
+    "tagline": "Youth Wrestling Evaluations",
+    "heroTop": "CONTROL THE",
+    "heroAccent": "MAT.",
+    "icon": "🤼",
+    "positions": [
+      "Lightweight",
+      "Middleweight",
+      "Heavyweight",
+      "Freestyle",
+      "Greco-Roman"
+    ],
+    "skills": [
+      {
+        "id": "stanceMotion",
+        "label": "Stance & Motion",
+        "symbol": "figure.wrestling",
+        "hint": "Balance, movement, pressure"
+      },
+      {
+        "id": "shots",
+        "label": "Shots",
+        "symbol": "arrow.down.forward",
+        "hint": "Setup, penetration, finish"
+      },
+      {
+        "id": "takedownDefense",
+        "label": "Takedown Defense",
+        "symbol": "shield.fill",
+        "hint": "Sprawl, hips, recovery"
+      },
+      {
+        "id": "matControl",
+        "label": "Mat Control",
+        "symbol": "circle.grid.cross",
+        "hint": "Top pressure, turns, escapes"
+      },
+      {
+        "id": "scrambling",
+        "label": "Scrambling",
+        "symbol": "arrow.triangle.2.circlepath",
+        "hint": "Reactions, position recovery"
+      },
+      {
+        "id": "conditioning",
+        "label": "Conditioning",
+        "symbol": "waveform.path.ecg",
+        "hint": "Pace, endurance, late-match effort"
+      },
+      {
+        "id": "wrestlingIq",
+        "label": "Wrestling IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Situations, clock, scoring awareness"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Listening, adjustments, discipline"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Drill focus, toughness, consistency"
+      }
+    ]
+  },
+  {
+    "id": "trackfield",
+    "name": "Track & Field",
+    "brand": "TRACKSCOUT",
+    "tagline": "Youth Track & Field Evaluations",
+    "heroTop": "MEASURE EVERY",
+    "heroAccent": "EVENT.",
+    "icon": "👟",
+    "positions": [
+      "Sprints",
+      "Distance",
+      "Hurdles",
+      "Jumps",
+      "Throws",
+      "Multi-Event"
+    ],
+    "skills": [
+      {
+        "id": "speed",
+        "label": "Speed",
+        "symbol": "bolt.fill",
+        "hint": "Acceleration, top speed, turnover"
+      },
+      {
+        "id": "starts",
+        "label": "Starts",
+        "symbol": "flag.checkered",
+        "hint": "Reaction, drive phase, first steps"
+      },
+      {
+        "id": "endurance",
+        "label": "Endurance",
+        "symbol": "waveform.path.ecg",
+        "hint": "Stamina, pace maintenance"
+      },
+      {
+        "id": "technique",
+        "label": "Technique",
+        "symbol": "figure.run",
+        "hint": "Form, mechanics, efficiency"
+      },
+      {
+        "id": "eventExecution",
+        "label": "Event Execution",
+        "symbol": "target",
+        "hint": "Approach, marks, race plan"
+      },
+      {
+        "id": "strength",
+        "label": "Strength",
+        "symbol": "dumbbell.fill",
+        "hint": "Power, stability, force production"
+      },
+      {
+        "id": "trackIq",
+        "label": "Track IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Pacing, event awareness, tactics"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Feedback, habits, preparation"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Consistency, competitiveness, focus"
+      }
+    ]
+  },
+  {
+    "id": "swimming",
+    "name": "Swimming",
+    "brand": "LANESCOUT",
+    "tagline": "Youth Swimming Evaluations",
+    "heroTop": "OWN EVERY",
+    "heroAccent": "LANE.",
+    "icon": "🏊",
+    "positions": [
+      "Freestyle",
+      "Backstroke",
+      "Breaststroke",
+      "Butterfly",
+      "Individual Medley",
+      "Relay"
+    ],
+    "skills": [
+      {
+        "id": "strokeTechnique",
+        "label": "Stroke Technique",
+        "symbol": "water.waves",
+        "hint": "Efficiency, catch, body position"
+      },
+      {
+        "id": "starts",
+        "label": "Starts",
+        "symbol": "flag.checkered",
+        "hint": "Reaction, launch, entry"
+      },
+      {
+        "id": "turns",
+        "label": "Turns",
+        "symbol": "arrow.triangle.2.circlepath",
+        "hint": "Approach, wall speed, breakout"
+      },
+      {
+        "id": "endurance",
+        "label": "Endurance",
+        "symbol": "waveform.path.ecg",
+        "hint": "Stamina, pace, recovery"
+      },
+      {
+        "id": "speed",
+        "label": "Speed",
+        "symbol": "bolt.fill",
+        "hint": "Sprint pace, tempo, finish"
+      },
+      {
+        "id": "raceStrategy",
+        "label": "Race Strategy",
+        "symbol": "target",
+        "hint": "Splits, pacing, lane awareness"
+      },
+      {
+        "id": "swimmingIq",
+        "label": "Swimming IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Rules, events, situational awareness"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Technical feedback, focus, habits"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Training consistency, intensity"
+      }
+    ]
+  },
+  {
+    "id": "icehockey",
+    "name": "Ice Hockey",
+    "brand": "ICESCOUT",
+    "tagline": "Youth Ice Hockey Evaluations",
+    "heroTop": "EVALUATE EVERY",
+    "heroAccent": "SHIFT.",
+    "icon": "🏒",
+    "positions": [
+      "Center",
+      "Wing",
+      "Defense",
+      "Goalie"
+    ],
+    "skills": [
+      {
+        "id": "skating",
+        "label": "Skating",
+        "symbol": "figure.hockey",
+        "hint": "Edges, stride, balance"
+      },
+      {
+        "id": "puckHandling",
+        "label": "Puck Handling",
+        "symbol": "circle.grid.cross",
+        "hint": "Control, protection, creativity"
+      },
+      {
+        "id": "passing",
+        "label": "Passing",
+        "symbol": "arrow.left.and.right",
+        "hint": "Accuracy, timing, support"
+      },
+      {
+        "id": "shooting",
+        "label": "Shooting",
+        "symbol": "target",
+        "hint": "Release, accuracy, power"
+      },
+      {
+        "id": "defense",
+        "label": "Defense",
+        "symbol": "shield.fill",
+        "hint": "Gaps, positioning, stick detail"
+      },
+      {
+        "id": "physicality",
+        "label": "Physicality",
+        "symbol": "figure.strengthtraining.traditional",
+        "hint": "Compete level, contact, puck battles"
+      },
+      {
+        "id": "hockeyIq",
+        "label": "Hockey IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Reads, spacing, situational play"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Listening, systems, adjustments"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Motor, detail, consistency"
+      }
+    ]
+  },
+  {
+    "id": "tennis",
+    "name": "Tennis",
+    "brand": "RACKETSCOUT",
+    "tagline": "Youth Tennis Evaluations",
+    "heroTop": "RATE EVERY",
+    "heroAccent": "POINT.",
+    "icon": "🎾",
+    "positions": [
+      "Singles",
+      "Doubles",
+      "Baseline",
+      "Net Player",
+      "All-Court"
+    ],
+    "skills": [
+      {
+        "id": "serve",
+        "label": "Serve",
+        "symbol": "target",
+        "hint": "Placement, power, consistency"
+      },
+      {
+        "id": "forehand",
+        "label": "Forehand",
+        "symbol": "arrow.forward.circle.fill",
+        "hint": "Control, depth, shot quality"
+      },
+      {
+        "id": "backhand",
+        "label": "Backhand",
+        "symbol": "arrow.backward.circle.fill",
+        "hint": "Stability, direction, confidence"
+      },
+      {
+        "id": "volleyNetPlay",
+        "label": "Volley & Net Play",
+        "symbol": "hand.raised.fill",
+        "hint": "Hands, positioning, finish"
+      },
+      {
+        "id": "footwork",
+        "label": "Footwork",
+        "symbol": "figure.run",
+        "hint": "Movement, recovery, balance"
+      },
+      {
+        "id": "consistency",
+        "label": "Consistency",
+        "symbol": "repeat",
+        "hint": "Rally tolerance, errors, patience"
+      },
+      {
+        "id": "tennisIq",
+        "label": "Tennis IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Patterns, shot selection, match awareness"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Adjustments, attitude, focus"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Compete level, preparation, consistency"
+      }
+    ]
+  },
+  {
+    "id": "golf",
+    "name": "Golf",
+    "brand": "GREENSCOUT",
+    "tagline": "Youth Golf Evaluations",
+    "heroTop": "TRACK EVERY",
+    "heroAccent": "ROUND.",
+    "icon": "⛳",
+    "positions": [
+      "Golfer",
+      "Varsity",
+      "Junior Varsity",
+      "Tournament"
+    ],
+    "skills": [
+      {
+        "id": "driving",
+        "label": "Driving",
+        "symbol": "scope",
+        "hint": "Distance, accuracy, ball flight"
+      },
+      {
+        "id": "ironPlay",
+        "label": "Iron Play",
+        "symbol": "target",
+        "hint": "Contact, distance control, approach shots"
+      },
+      {
+        "id": "shortGame",
+        "label": "Short Game",
+        "symbol": "flag.fill",
+        "hint": "Chipping, pitching, touch"
+      },
+      {
+        "id": "putting",
+        "label": "Putting",
+        "symbol": "circle.grid.cross",
+        "hint": "Speed, reads, start line"
+      },
+      {
+        "id": "courseManagement",
+        "label": "Course Management",
+        "symbol": "map.fill",
+        "hint": "Decisions, risk, strategy"
+      },
+      {
+        "id": "consistency",
+        "label": "Consistency",
+        "symbol": "repeat",
+        "hint": "Scoring stability, misses, routine"
+      },
+      {
+        "id": "golfIq",
+        "label": "Golf IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Rules, conditions, shot planning"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Practice plan, feedback, discipline"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Focus, preparation, competitive habits"
+      }
+    ]
+  },
+  {
+    "id": "crosscountry",
+    "name": "Cross Country",
+    "brand": "XCOUT",
+    "tagline": "Youth Cross Country Evaluations",
+    "heroTop": "EVALUATE THE",
+    "heroAccent": "PACK.",
+    "icon": "🏃",
+    "positions": [
+      "Varsity",
+      "Junior Varsity",
+      "Distance",
+      "Developmental"
+    ],
+    "skills": [
+      {
+        "id": "endurance",
+        "label": "Endurance",
+        "symbol": "waveform.path.ecg",
+        "hint": "Aerobic strength, durability"
+      },
+      {
+        "id": "pacing",
+        "label": "Pacing",
+        "symbol": "timer",
+        "hint": "Splits, patience, control"
+      },
+      {
+        "id": "runningForm",
+        "label": "Running Form",
+        "symbol": "figure.run",
+        "hint": "Efficiency, posture, cadence"
+      },
+      {
+        "id": "hillStrength",
+        "label": "Hill Strength",
+        "symbol": "mountain.2.fill",
+        "hint": "Climbing, power, control"
+      },
+      {
+        "id": "finishingKick",
+        "label": "Finishing Kick",
+        "symbol": "bolt.fill",
+        "hint": "Late-race speed, closing effort"
+      },
+      {
+        "id": "mentalToughness",
+        "label": "Mental Toughness",
+        "symbol": "shield.fill",
+        "hint": "Composure, resilience, pressure"
+      },
+      {
+        "id": "raceIq",
+        "label": "Race IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Pack running, tactics, course awareness"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Training habits, feedback, discipline"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Consistency, effort, recovery habits"
+      }
+    ]
+  },
+  {
+    "id": "gymnastics",
+    "name": "Gymnastics",
+    "brand": "GYMSCOUT",
+    "tagline": "Youth Gymnastics Evaluations",
+    "heroTop": "EVALUATE EVERY",
+    "heroAccent": "SKILL.",
+    "icon": "🤸",
+    "positions": [
+      "All-Around",
+      "Vault",
+      "Bars",
+      "Beam",
+      "Floor"
+    ],
+    "skills": [
+      {
+        "id": "floor",
+        "label": "Floor",
+        "symbol": "figure.gymnastics",
+        "hint": "Power, control, artistry"
+      },
+      {
+        "id": "beam",
+        "label": "Beam",
+        "symbol": "ruler.fill",
+        "hint": "Balance, confidence, precision"
+      },
+      {
+        "id": "bars",
+        "label": "Bars",
+        "symbol": "line.diagonal",
+        "hint": "Swing, strength, transitions"
+      },
+      {
+        "id": "vault",
+        "label": "Vault",
+        "symbol": "bolt.fill",
+        "hint": "Run, block, landing"
+      },
+      {
+        "id": "flexibility",
+        "label": "Flexibility",
+        "symbol": "figure.cooldown",
+        "hint": "Range, lines, control"
+      },
+      {
+        "id": "execution",
+        "label": "Execution",
+        "symbol": "checkmark.seal.fill",
+        "hint": "Form, landings, deductions"
+      },
+      {
+        "id": "gymnasticsIq",
+        "label": "Gymnastics IQ",
+        "symbol": "brain.head.profile",
+        "hint": "Routine awareness, corrections, pacing"
+      },
+      {
+        "id": "coachability",
+        "label": "Coachability",
+        "symbol": "gauge.with.dots.needle.67percent",
+        "hint": "Feedback, confidence, focus"
+      },
+      {
+        "id": "practiceEffort",
+        "label": "Practice Effort & Performance",
+        "symbol": "flame.fill",
+        "hint": "Repetition quality, consistency, preparation"
+      }
+    ]
+  }
+]
