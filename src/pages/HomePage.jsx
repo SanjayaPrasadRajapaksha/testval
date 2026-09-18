@@ -19,15 +19,15 @@ export default function HomePage() {
           <Link to="/register" className="btn btn-secondary">
             Create account
           </Link>
-          <Link to="/dashboard" className="btn btn-secondary">
+          {/* <Link to="/dashboard" className="btn btn-secondary">
             Open dashboard
-          </Link>
+          </Link> */}
         </div>
       </section>
-      <section className="glass panel muted" style={{ fontSize: "0.9rem" }}>
+      {/* <section className="glass panel muted" style={{ fontSize: "0.9rem" }}>
         Demo coach: <strong style={{ color: "var(--text)" }}>coach@evalscout.org</strong> /{" "}
         <strong style={{ color: "var(--text)" }}>Coach123!</strong>
-      </section>
+      </section> */}
     </main>
   );
 }
